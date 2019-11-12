@@ -1,0 +1,645 @@
+.Size(@width,@height){
+    width:@width;
+    height:@height;
+};
+.w {
+    widows: 1247px;;
+    margin: 0 auto;
+};
+
+body {
+    position: relative;
+    z-index: 5;
+};
+
+// 第一部分
+.part1 {
+    .Size(100%, 3.916667rem);
+    position: relative;
+
+    .huaban {
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+
+        img {
+            transform: rotate(45deg);
+        }
+    };
+    // 顶部导航条
+    .topBar {
+    position: absolute;
+    width: 100%;
+    height: .416667rem;
+    background: url('../img/navTop_bg_00cfa9b.png') no-repeat;
+    background-size: 10rem .473958rem;
+    z-index: 2;
+    // 导航条
+    .nav {
+        .Size(6.494792rem,.416667rem);
+
+        ul {
+            .Size(100%, 100%);
+            display: flex;
+
+            li {
+                float:left;
+                .Size(.625rem,.416667rem);
+                line-height: .364583rem;
+                text-align: center;
+                font-size: .104167rem;
+                position: relative;
+
+                a {
+                    display: block;
+                    .Size(100%,100%);
+                    position: absolute;
+                    z-index: 1;
+
+                   .underline {
+                       display: block;
+                        position: absolute;
+                        top:.052083rem;
+                        left:.244792rem;
+                        color:#ffd9a1;
+                        display: none;
+                   };
+
+                };
+
+                .line {
+                    position: absolute;
+                    right:0;
+                    top:24%;
+                    .Size(.005208rem,.161458rem);
+                    background: url('../img/nav_z_0d8e521.png') no-repeat;
+                    background-size: .635417rem,.588542rem;
+                    background-position: 0 -0.416667rem;
+                };
+
+                .nav-bg {
+                    display: none;
+                    position: absolute;
+                    left:0;
+                    .Size(100%,100%);
+                     background: url('../img/nav_z_0d8e521.png');
+                     background-size: .635417rem .588542rem;
+                };
+
+            };
+
+            .logo {
+                   .Size(1.822917rem,.661458rem);
+
+                a {
+                    background: url('../img/350.jpg') center;
+                    background-size: 1.822917rem .661458rem;
+                };
+            };
+        };
+    };
+
+    };
+    .fixed {
+         position: fixed; 
+         top: 0; width: 100%;
+    }
+    // 背景大图
+    .banner {
+        position: absolute;
+
+        img {
+            .Size(10rem,3.916667rem);
+        };
+    };
+};
+// 第二部分
+.part2 {
+    .Size(100%,3.265625rem);
+    position: relative;
+    // 第二部分背景大图
+    .part2_bg {
+        position: absolute;
+
+        img {
+            .Size(10rem,3.265625rem);
+        };
+    };
+    // 周免式神标题
+    .title {
+        position: absolute;
+        left: 50%;
+        margin-left: -1.880208rem;
+        margin-top: .458333rem;
+
+        img {
+            .Size(3.765625rem,.609375rem);
+        };
+    };
+    // 周免内容
+    .zm {
+        .Size(3.880208rem,1.046875rem);
+        position: absolute;
+        left:20%;
+        top:50%;
+        // 周免时间
+        .zm-time {
+            .Size(3.880208rem,.21875rem);
+            margin-bottom: .15625rem;
+            padding-left: .119792rem;
+            background: url('../img/part02-time_45e45a1.png') no-repeat left;
+            font-family: "Microsoft YaHei";
+            font-size: .104167rem;
+            color: #ffdaa6;
+            line-height: .21875rem;
+        };
+        // 周免轮播图
+        .zm-lunbo {
+            .Size(3.90625rem,.682292rem);
+            overflow: hidden;
+            position: relative;
+            // 11.71875rem
+            ul {
+                .Size(20.052083rem,.677083rem);
+                position: absolute;
+                left:0;
+    
+                li {
+                    float:left;
+                    .Size(.671875rem,.671875rem);
+                    margin-right: .109375rem;
+                    border: 1px solid #ffd9a4;
+                    text-align: center;
+
+                    a {
+                        display: block;
+                        .Size(.619792rem,.619792rem);
+                        margin: 0 auto;
+                        border: 1px solid #ffd9a4;
+                        overflow: hidden;
+                        background-color: #ffdaa6;
+                        margin-top:.020833rem ;
+                        
+
+                        img {
+                            .Size(.619792rem,.619792rem);
+                        };
+                    };
+                };
+            };
+        };
+        // 左箭头
+        .left-arrow {
+            position: absolute;
+            .Size(.21875rem,.390625rem);
+            left:-9%;
+            top:46%;
+            transition: 0.5s;
+            cursor: pointer;
+    
+            i {
+                display: block;
+                .Size(100%,100%);
+
+                img {
+                    .Size(.213542rem,.390625rem);
+                };
+            };
+
+            &:hover {
+                left:-10%;
+                transition: 0.5s;
+            };
+        };
+        // 右箭头
+        .right-arrow {
+            position: absolute;
+            .Size(.21875rem,.390625rem);
+            right:-9%;
+            top:46%;
+            transition: 0.5s;
+            cursor: pointer;
+    
+            i {
+                display: block;
+                .Size(100%,100%);
+
+                img {
+                    .Size(.213542rem,.390625rem);
+                };
+            };
+
+            &:hover {
+                right:-10%;
+                transition: 0.5s;
+            };
+        };
+    };
+    // 右边人物大图
+    .role-right {
+        position: absolute;
+        .Size(3.458333rem,3.239583rem);
+        right: 0;
+        bottom:-0.46875rem;
+        z-index: 1;
+
+        img {
+            .Size(3.458333rem,3.239583rem);
+        };
+    };
+};
+// 第三部分
+.part3 {
+    .Size(100%,5.197917rem);
+    position: relative;
+    // 第三部分背景图
+    .part3_bg {
+        position: absolute;
+
+        img{
+            .Size(10rem,5.197917rem);
+        };
+    };
+    // 式神录标题
+    .title {
+        position: absolute;
+        left: 50%;
+        margin-left: -1.880208rem;
+        margin-top: .197917rem;
+
+        img {
+            .Size(3.765625rem,.609375rem);
+        };
+    };
+    // 左边人物大图
+    .role-left {
+        position: absolute;
+        z-index: 1;
+        margin-top: 116px;
+        margin-left: -0.104167rem;
+
+        img {
+            .Size(2.109375rem,3.598958rem);
+        };
+    };
+    // 式神录内容
+    .content{
+        .Size(6.265625rem,3.973958rem);
+        position: absolute;
+        top:20%;
+        left:50%;
+        margin-left: -3.130208rem;
+        // 分类按钮
+        .content-tab {
+            .Size(4.739583rem,.302083rem);
+            float:left;
+
+
+            ul {
+                .Size(100%,100%);
+                display: flex;
+              
+
+                li {
+                    float:left;
+                    flex:1;
+                    position: relative;
+                    line-height: .244792rem;
+
+                   &:hover {
+                       .tab-bg {
+                           display: block;
+                       };
+                   };
+
+                    i {
+                        display: block;
+                        .Size(100%,100%);
+                        cursor: pointer;
+                       
+                        .tab-bg,
+                        .first {
+                            position: absolute;
+                            .Size(100%,100%);
+                            background: url('../img/part3_tab_hover_397f939.png') no-repeat;
+                            background-size: .546875rem .302083rem;
+                        };
+                        .tab-bg {
+                            display: none;
+                        };
+                        .first {
+                            display: block;
+                        };
+
+                        img {
+                            .Size(.265625rem,.130208rem);
+                            margin-left: .135417rem;
+                            position: relative;
+                            z-index: 1;
+                        };
+                    };
+
+                    .icon {
+                        display: block;
+                        background: url('../img/icon01_5258d43.png');
+                        background-size: .213542rem .057292rem;
+                        .Size(.213542rem,.057292rem);
+                        position: absolute;
+                        right:-0.046875rem;
+                        top:.09375rem;
+                        z-index: 1;
+                        
+                       
+                        
+                     };
+                };
+            };
+        };
+        // 式神搜索框
+        .content-search {
+            .Size(1.463542rem,.21875rem);
+            float:right;
+            background-color: #fff;
+            border:1px solid #6d599a;
+            border-radius: 5px;
+            overflow: hidden;
+            position: relative;
+            
+
+            input {
+                .Size(1.026042rem,.208333rem);
+                padding-left: .104167rem;
+                font-size: 10px;
+                font-weight: inherit;
+                font-family: inherit;
+                position: absolute;
+            };
+
+            .icon {
+                display: block;
+                .Size(.208333rem,.208333rem);
+                float:right;
+                background-color: #6d599a;
+                position: relative;
+                cursor: pointer;
+
+                img {
+                    position: absolute;
+                    .Size(.140625rem,.140625rem);
+                    left:0;
+                    right:0;
+                    top:0;
+                    bottom:0;
+                    margin: auto;
+                };
+            };
+        };
+        // 式神展示框
+        .content-show {
+            .Size(6.265625rem,3.369792rem);
+            margin-top: .416667rem;
+            background: url('../img/part3-cont_bg_beb25be.png') no-repeat;
+            background-size: 6.265625rem 3.369792rem;
+            display: flex;
+            justify-content: center;
+
+            ul {
+                .Size(6.161458rem,2.96875rem);
+                margin:  auto;
+                overflow: auto;
+
+                &::-webkit-scrollbar {
+                    width: 4px;     
+                    height: 4px;
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    border-radius: 5px;
+                    -webkit-box-shadow: inset 0 0 5px rgba(99, 18, 238, 1);
+                    background: rgba(0,0,0,0.2);
+                }
+                
+                li {
+                    .Size(.739583rem,.927083rem);
+                    float:left;
+                    margin-left: .114583rem;
+                    margin-bottom: .0625rem;
+                    text-align: center;
+                    
+
+                    a {
+                       position: relative;
+                        display: block;
+                        .Size(.739583rem,.739583rem);
+                        line-height: 69px;
+                        border: 1px solid #473476;
+                        margin: 0 auto;
+
+                        img {
+                            position: absolute;
+                            .Size(.666667rem,.666667rem);
+                            border: 1px solid #473476;
+                            left:0;
+                            right:0;
+                            top: 0;
+                            bottom:0;
+                            margin: auto;
+                        };
+                    };
+
+                    p {
+                        line-height: .1875rem;
+                        color:3e2c71;
+                        font-size: .09375rem;
+                    };
+                };
+            };
+        };
+    };
+};
+
+// 页脚
+.footer {
+    .Size(100%,117px);
+    background-color: #170f0b;
+    padding-top: 20px;
+
+    // 分享
+    .share {
+        .Size(1.927083rem,.135417rem);
+        margin: 0 auto;
+       
+        span {
+            display: inline-block;
+            float: left;
+            height: .135417rem;
+            line-height: .135417rem;
+            font-size: .083333rem;
+            color:#9aa1b1;
+            margin-top: .03125rem;
+        };
+
+        ul {
+            width: 1.640625rem;
+            height: .135417rem;
+            float:right;
+
+            li {
+                width: .3125rem;
+                height: .135417rem;
+                float:left;
+
+                a {
+                    display: block;
+                    .Size(.208333rem,.208333rem);
+                    margin: 0 auto;
+                    background-color: #6b2d10;
+                    border-radius: .104167rem;
+                    text-align: center;
+
+                    &:hover {
+                        background-color: #ccc;
+                    };
+
+                    i {
+                        display: block;
+                        .Size(100%,100%);
+                        line-height: .208333rem;
+                        font-size: .182292rem;
+                    };
+                };
+            };
+        };
+    };
+    // 版权部分
+    .copyRight {
+        .Size(6.770833rem,.380208rem);
+        margin: 0 auto;
+        margin-top: 10px;
+        padding: .078125rem 0 .052083rem;
+       
+        // 左边版权图片
+        .left-logo {
+            .Size(1.953125rem,.286458rem);
+            float:left;
+            margin: auto 0;
+
+            a {
+                display:block;
+            };
+
+            .logo1 {
+                .Size(.640625rem,.213542rem);
+                float:left;
+                background: url('../img/netease.2.png') no-repeat;
+                background-size: .640625rem .213542rem;
+            };
+
+            .logo2 {
+                .Size(.984375rem,.1875rem);
+                float:left;
+                background: url('../img/nie.2.png') no-repeat;
+                background-size:.984375rem .1875rem;
+            };
+        };
+        // 公司导航条
+        .nie-nav {
+            .Size(4.166667rem,.3125rem);
+            float:left;
+            
+            
+
+            ul {
+                width: 100%;
+                height: .072917rem;
+                li {
+                    float:left;
+                    height: .072917rem;
+                    line-height: .072917rem;
+
+                    a {
+                        float: left;
+                        color:#e23a3f;
+                        font-size: .072917rem;
+                    };
+
+                    i {
+                        float:right;
+                        color:#9aa1b1;
+                        margin: 0 .026042rem;
+                        font-size: .125rem;
+                    };
+                };
+
+               
+            };
+
+            .copy {
+                float:left;
+                color:#9aa1b1;
+                font-size: .072917rem;
+                margin-top: .078125rem;
+            };
+            
+            .parent {
+                .Size(.911458rem,.171875rem);
+                float:right;
+                background-color: #610000;
+                margin-top: .052083rem;
+                font-size: .072917rem;
+                padding: 0 .015625rem;
+                color:#fff;
+                text-align: center;
+                line-height: .171875rem;
+            };
+        };
+    };
+
+   
+};
+
+// 妖怪盒子
+.yaoguai {
+    .Size(750px,160px);
+    position: fixed;
+    bottom:0;
+    z-index: 2;
+    left:0;
+    overflow: hidden;
+
+    ul {
+        .Size(100%,100%);
+       
+        // 单独的妖怪盒子
+        li {
+            .Size(187px,160px);
+            float:left;
+            overflow: hidden;
+            position: relative;
+
+            i {
+                display: block;
+                .Size(342px, 176px);
+                position: absolute;
+                left: 0;
+            };
+
+            &:nth-child(1)  i {
+                background: url('../img/txgq_d281c9b.png') no-repeat 0 0px;
+            };
+            &:nth-child(2)  i {
+                background: url('../img/txgh_fee2457.png') no-repeat 0 -15px;
+            };
+            &:nth-child(3)  i {
+                background: url('../img/txgl_c15cfd8.png') no-repeat 0 10px;
+            };
+            &:nth-child(4) i {
+                background: url('../img/txgc_6d0e9e5.png') no-repeat 31px 40px;
+            };
+        };
+    };
+};
+
+
+
+

@@ -1,0 +1,65 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+div{
+    display: block;
+}
+
+    a{
+       color: #000;
+        text-decoration: none;
+    }
+    html {
+        color: -internal-root-color;
+    }
+    li {
+        list-style: none;
+            display: list-item;
+            text-align: -webkit-match-parent;
+    }
+    i {
+        font-style: normal;
+    }
+
+    body {
+        font-family: "Microsoft YaHei",simSun,"Lucida Grande","Lucida Sans Unicode",Arial;
+        line-height: 170%;
+        font-size: 14px;
+        color: #000;}
+        input {
+            font-family: inherit;
+            font-size: inherit;
+            font-weight: inherit;
+        }
+        em{
+        font-style: normal;
+        font-weight: normal;
+    }
+    fieldset, img {
+        border: 0;
+    }

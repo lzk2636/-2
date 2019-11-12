@@ -1,0 +1,64 @@
+body,
+div,
+span,
+a,
+img,
+p,
+ins,
+i,
+u,
+ul,
+li,
+ol,
+strong,
+em,
+del,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+i {
+    font-style: normal;
+}
+li {
+    list-style: none;
+}
+input {
+    border: none;
+    outline: none;
+}
+img {
+    border: none;
+    vertical-align: middle;
+}
+body {
+    font-style: 12px;
+    line-height: 1;
+    background-color: #ffffff;
+}
+.clearfix::after {
+    content:".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix::after {
+    *zoom: 1;
+}
+.w {
+    width: 1920px;
+    margin: 0 auto;
+}
+

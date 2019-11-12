@@ -1,0 +1,335 @@
+header {
+  position: fixed;
+  width: 10rem;
+  height: 100vh;
+  background: url('../imgae/ia_100000101.jpg') no-repeat bottom;
+  background-size: 10rem 5.208333rem;
+  padding-top: 0.260417rem;
+  bottom: 0;
+}
+header .log {
+  float: left;
+  margin-left: 0.520833rem;
+  width: 0.96875rem;
+  height: 0.375rem;
+  background: url('../imgae/ia_100000009.png');
+  background-size: 0.96875rem 0.375rem;
+}
+header .zzy-Portal {
+  float: right;
+  margin-right: 0.520833rem;
+}
+header .zzy-Portal ul li {
+  float: left;
+  width: 0.203125rem;
+  height: 0.296875rem;
+  margin-right: 0.078125rem;
+}
+header .zzy-Portal ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+header .zzy-Portal ul li:nth-child(1) {
+  background: url('../imgae/ia_100000104.png');
+  background-size: 0.203125rem 0.296875rem;
+}
+header .zzy-Portal ul li:nth-child(1):hover {
+  opacity: 0.6;
+}
+header .zzy-Portal ul li:nth-child(2) {
+  background: url('../imgae/ia_100000102.png');
+  background-size: 0.203125rem 0.296875rem;
+}
+header .zzy-Portal ul li:nth-child(2):hover {
+  opacity: 0.6;
+}
+header .zzy-Portal ul li:nth-child(3) {
+  position: relative;
+}
+header .zzy-Portal ul li:nth-child(3) a .box {
+  height: 0.052083rem;
+  position: absolute;
+  left: 0.052083rem;
+  top: 0.119792rem;
+  transform: rotate(180deg);
+}
+header .zzy-Portal ul li:nth-child(3) a .box i {
+  float: left;
+  margin-right: 0.015625rem;
+  width: 0.015625rem;
+  height: 0.052083rem;
+  background-color: #fff;
+}
+header .zzy-Portal ul li:nth-child(3) a .Audio .btn {
+  width: 0.15625rem;
+  height: 0.15625rem;
+  position: absolute;
+  left: 0.052083rem;
+  top: 0.052083rem;
+}
+header .zzy-Portal ul li:nth-child(3) a .Audio audio {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  opacity: 0;
+}
+header .hero {
+  position: absolute;
+  right: 2.083333rem;
+  bottom: 1.5625rem;
+  width: 4.166667rem;
+  height: 2.34375rem;
+}
+header .hero i {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+header .hero i img {
+  width: 100%;
+  height: 100%;
+}
+header .hero div {
+  position: absolute;
+}
+header .hero .hero-NR {
+  width: 1.052083rem;
+  height: 1.322917rem;
+  left: 0.755208rem;
+  top: 0.026042rem;
+}
+header .hero .hero-EM {
+  width: 1.239583rem;
+  height: 1.333333rem;
+  left: -0.3125rem;
+  top: 1.145833rem;
+}
+header .hero .hero-NW {
+  width: 1.09375rem;
+  height: 1.09375rem;
+  left: 0.96875rem;
+  top: 1.239583rem;
+}
+header .hero .hero-SMR {
+  width: 0.567708rem;
+  height: 0.958333rem;
+  left: 2.291667rem;
+  top: 1.302083rem;
+}
+header .hero .hero-SMR i {
+  width: 0.166667rem;
+  height: 0.572917rem;
+  display: none;
+}
+header .hero .hero-SMR i img {
+  width: 0.166667rem;
+  height: 0.572917rem;
+}
+header .hero .hero-HL {
+  width: 1.197917rem;
+  height: 1.46875rem;
+  right: -0.104167rem;
+  bottom: -0.104167rem;
+}
+header .banQuan {
+  height: 0.15625rem;
+  color: #d8cf9f;
+  position: absolute;
+  bottom: 0.104167rem;
+  right: 0.520833rem;
+  cursor: pointer;
+  font-size: 0.067708rem;
+}
+header .banQuan i {
+  display: inline-block;
+  width: 0.078125rem;
+  height: 0.078125rem;
+  background: url('../imgae/ia_100000110.png');
+  background-size: 0.078125rem 0.078125rem;
+  vertical-align: middle;
+  transform: rotate(180deg);
+  transition: all 1s;
+}
+header .banQuan .toogld {
+  transform: rotate(0deg);
+  transition: all 1s;
+}
+header footer {
+  position: absolute;
+  bottom: 0;
+  width: 10rem;
+  height: 0.380208rem;
+  background-color: #000;
+  padding: 0.026042rem;
+  font-size: 0.0625rem;
+  display: none;
+}
+header footer .wangYi {
+  width: 7.291667rem;
+  padding-left: 0.78125rem;
+  margin: 0.052083rem auto 0;
+  overflow: hidden;
+}
+header footer .wangYi .left-box {
+  float: left;
+  margin-right: 0.260417rem;
+}
+header footer .wangYi .left-box .left {
+  float: left;
+}
+header footer .wangYi .left-box .left img {
+  width: 0.614583rem;
+  height: 0.1875rem;
+}
+header footer .wangYi .left-box .right {
+  float: right;
+}
+header footer .wangYi .left-box .right img {
+  width: 0.697917rem;
+  height: 0.1875rem;
+}
+header footer .wangYi .right-box {
+  float: left;
+}
+header footer .wangYi .right-box .wy-nav-1 {
+  color: white;
+}
+header footer .wangYi .right-box .wy-nav-1 a {
+  color: white;
+}
+header footer .wangYi .right-box .wy-nav-1 a:hover {
+  text-decoration: underline;
+}
+header footer .wangYi .right-box .wy-nav-2 {
+  display: block;
+  margin-top: 0.052083rem;
+  color: white;
+  line-height: 0.135417rem;
+}
+header footer .wangYi .right-box .wy-nav-2 em {
+  float: right;
+  height: 0.135417rem;
+  color: white;
+  background-color: #610000;
+  cursor: pointer;
+}
+header footer .wangYi .right-box .wy-nav-2 em:hover {
+  text-decoration: underline;
+}
+.QJ-bg {
+  display: none;
+  position: relative;
+  height: 100vh;
+  background: url('../imgae/ia_100000106.jpg') no-repeat bottom;
+  background-size: 100% 5.208333rem;
+  overflow: hidden;
+}
+.QJ-bg .new .NR-bg {
+  width: 5.208333rem;
+  height: 2.958333rem;
+  background-size: 5.208333rem 2.958333rem;
+  position: absolute;
+  right: 0.520833rem;
+  bottom: 0.9375rem;
+}
+.QJ-bg .new .title {
+  position: absolute;
+  width: 2.427083rem;
+  height: 0.484375rem;
+  bottom: 2.864583rem;
+  left: 2.34375rem;
+  background: url('../imgaes/ia_100000107.png');
+  background-size: 2.427083rem 0.484375rem;
+}
+.QJ-bg .new .title .tianGou {
+  margin-top: 0.104167rem;
+  width: 1.390625rem;
+  height: 0.255208rem;
+}
+.QJ-bg .new .title .tianGou img {
+  width: 1.390625rem;
+  height: 0.255208rem;
+}
+.QJ-bg .new .title .stop {
+  position: absolute;
+  right: 0.052083rem;
+  top: 0.052083rem;
+}
+.QJ-bg .new .title .stop img {
+  width: 0.364583rem;
+  height: 0.364583rem;
+}
+.QJ-bg .new .title .stop:hover {
+  opacity: 0.6;
+}
+.QJ-bg .new .name {
+  width: 0.223958rem;
+  height: 1.088542rem;
+  position: absolute;
+  right: 1.5625rem;
+  bottom: 2.34375rem;
+}
+.QJ-bg .new .text {
+  position: absolute;
+  width: 2.291667rem;
+  height: 0.9375rem;
+  color: #dcd5e0;
+  font-size: 0.072917rem;
+  line-height: 0.130208rem;
+  bottom: 1.71875rem;
+  left: 2.34375rem;
+}
+.QJ-bg .new .remove {
+  width: 0.28125rem;
+  height: 0.28125rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 1.458333rem;
+  margin: auto;
+  cursor: pointer;
+  transition: all 2s;
+  transform: rotate(0deg);
+}
+.QJ-bg .new .remove:hover {
+  transition: all 2s;
+  transform: rotate(90deg);
+}
+.QJ-bg .NR {
+  display: none;
+}
+.QJ-bg .NR .NR-bg {
+  background: url('../imgaes/ia_100000011.png');
+}
+.QJ-bg .EM {
+  display: none;
+}
+.QJ-bg .EM .NR-bg {
+  width: 2.765625rem;
+  height: 3.395833rem;
+  right: 1.5625rem;
+  background: url('../imgaes/ia_100000000108.png');
+  background-size: 2.765625rem 3.395833rem;
+}
+.QJ-bg .NW {
+  display: none;
+}
+.QJ-bg .NW .NR-bg {
+  width: 2.765625rem;
+  height: 3.395833rem;
+  right: 1.5625rem;
+  background: url('../imgaes/ia_100000000112.png');
+  background-size: 2.765625rem 3.395833rem;
+}
+.QJ-bg .HL {
+  display: none;
+}
+.QJ-bg .HL .NR-bg {
+  width: 2.765625rem;
+  height: 3.395833rem;
+  right: 1.5625rem;
+  background: url('../imgaes/ia_100000000115.png');
+  background-size: 2.765625rem 3.395833rem;
+}

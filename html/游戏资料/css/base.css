@@ -1,0 +1,93 @@
+body,
+div,
+span,
+p,
+a,
+img,
+input,
+ul,
+li,
+strong,
+em,
+del,
+ins,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav,
+header,
+footer {
+    margin: 0;
+    padding: 0;
+    /* 清除标签默认的内外边距 */
+    box-sizing: border-box;
+    /* 设置盒模型:内减模型 */
+}
+
+a {
+    text-decoration: none;
+    /* 清除a标签自带下划线 */
+    color: #000;
+    /* 清除默认颜色 */
+}
+
+li {
+    list-style: none;
+    /* 清除li标签前面的小点点 */
+}
+
+input {
+    border: none;
+    /* 清除input默认边框 */
+    outline: none;
+    /* 清除外轮廓线(高亮线) */
+}
+
+img {
+    border: none;
+    /* 清除低级浏览器的自带边框 */
+    vertical-align: middle;
+    /* 让图片与文字中线对齐,清除图片底部的空白间隙 */
+}
+
+i {
+    font-style: normal;
+    /* 清除i标签的倾斜效果 */
+}
+
+.clearfix::after {
+    content: ".";
+    /* 因为在某一个低版本的火狐浏览器中,如果content没有内容,会产生间隙 */
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    /* 元素是否可见 */
+}
+
+.clearfix {
+    /* 兼容低级IE浏览器 */
+    *zoom: 1;
+    /* 消除浮动影响 */
+}
+
+.w {
+    width: 1200px;
+    /* 版心宽度 */
+    margin: 0 auto;
+    /* 版心居中 */
+}
+
+body {
+    font: 12px "微软雅黑";
+    line-height: 1;
+    /* 初始化默认字体 */
+    /* 大部分标签,默认都有行高,默认行高会影响我们布局 */
+    /* 上面的百分比是行高,当前的字体大小乘以这个百分比就是行高 */
+    /* line-height: 12px; */
+    background-color: #f3f6f6;
+    /* 设置body默认背景颜色 */
+}

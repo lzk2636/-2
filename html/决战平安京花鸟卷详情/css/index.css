@@ -1,0 +1,1061 @@
+.share {
+  background-size: 0.104167rem;
+}
+.wrap {
+  width: 100%;
+  min-width: 6.666667rem;
+  max-width: 10rem;
+  position: relative;
+  overflow: hidden;
+}
+.wrap .nav-box {
+  position: relative;
+  width: 100%;
+  height: 0.46875rem;
+  background: url("../img花鸟卷详情/ia_100000114.png");
+  background-size: 100% 100%;
+  z-index: 1;
+}
+.wrap .nav-box .nav {
+  width: 6.494792rem;
+  margin: 0 auto;
+}
+.wrap .nav-box .nav a {
+  float: left;
+  width: 0.625rem;
+  height: 0.416667rem;
+  font-size: 0.09375rem;
+  line-height: 0.354167rem;
+  color: #200030;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+.wrap .nav-box .nav a:hover i {
+  position: absolute;
+  display: inline-block;
+  width: 0.104167rem;
+  height: 0.005208rem;
+  background-color: #ffd9a1;
+  top: 0.296875rem;
+  left: 0.270833rem;
+}
+.wrap .nav-box .nav a::before {
+  content: "";
+  position: absolute;
+  top: 0.125rem;
+  right: -0.005208rem;
+  width: 0.005208rem;
+  height: 0.166667rem;
+  background: url('../img花鸟卷详情/ia_100000006637.png') no-repeat;
+  background-size: 0.583333rem 0.588542rem;
+  background-position: 0px -0.427083rem;
+  z-index: -1;
+}
+.wrap .nav-box .nav a:hover::after {
+  content: "";
+  width: 0.677083rem;
+  height: 100%;
+  position: absolute;
+  left: -1px;
+  top: 0;
+  z-index: -1;
+  background: url('../img花鸟卷详情/ia_100000006637.png') no-repeat;
+  background-size: 0.677083rem 0.588542rem;
+  background-position: 0px 0px;
+}
+.wrap .nav-box .nav .nav4 {
+  margin-right: 1.484375rem;
+}
+.wrap .nav-box .logo {
+  position: absolute;
+  width: 1.822917rem;
+  height: 0.661458rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: -0.041667rem;
+  z-index: 1;
+  background: url('../img花鸟卷详情/ia_100000115.jpg');
+  background-size: 1.822917rem 0.65625rem;
+}
+.wrap .main {
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  height: 4.921875rem;
+  background: url('../img花鸟卷详情/ia_100000120.jpg') no-repeat 50% 0;
+  top: -0.46875rem;
+  background-size: 10rem 4.921875rem;
+}
+.wrap .main .content {
+  width: 100%;
+  height: 4.479167rem;
+  top: 0.442708rem;
+  position: relative;
+}
+.wrap .main .content .left {
+  width: 0.682292rem;
+  height: 3.5rem;
+  position: absolute;
+  overflow: hidden;
+  left: 1.5625rem;
+  top: 0.260417rem;
+}
+.wrap .main .content .left .btn {
+  display: block;
+  text-align: center;
+}
+.wrap .main .content .left .btn img {
+  width: 0.234375rem;
+  height: 0.234375rem;
+}
+.wrap .main .content .left i {
+  margin: 0.026042rem 0;
+  position: relative;
+  display: inline-block;
+  background-color: #ffd9a1;
+  top: 0;
+  width: 0.005208rem;
+  height: 0.15625rem;
+  margin-left: 0.338542rem;
+}
+.wrap .main .content .left .head {
+  vertical-align: top;
+  width: 0.682292rem;
+  height: 0.546875rem;
+  text-align: center;
+  background: url('../img花鸟卷详情/ia_100000122.png') no-repeat;
+  padding-top: 0.026042rem;
+  background-size: 0.682292rem 0.546875rem;
+}
+.wrap .main .content .left .head a img {
+  margin: 0 auto;
+  width: 0.494792rem;
+  height: 0.494792rem;
+  border-radius: 50%;
+}
+.wrap .main .content .left span {
+  display: block;
+  text-align: center;
+  font-size: 0.083333rem;
+  color: #ffd9a1;
+  margin: 0.026042rem 0;
+}
+.wrap .main .content .left .line {
+  height: 2.083333rem;
+}
+.wrap .main .content .portrait {
+  position: absolute;
+  width: 2.666667rem;
+  height: 2.666667rem;
+  left: 30%;
+  top: 20%;
+}
+.wrap .main .content .portrait img {
+  width: 100%;
+}
+.wrap .main .content .right {
+  width: 2.09375rem;
+  position: absolute;
+  right: 1.5625rem;
+  top: 0.208333rem;
+}
+.wrap .main .content .right .title {
+  width: 0.697917rem;
+  height: 0.234375rem;
+  background: url('../img花鸟卷详情/ia_100000125.png');
+  background-size: 0.697917rem 0.234375rem;
+  margin-bottom: 0.052083rem;
+}
+.wrap .main .content .right .title a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 0.234375rem;
+  font-size: 0.104167rem;
+  color: #ffd9a1;
+}
+.wrap .main .content .right .intro {
+  width: 2.09375rem;
+  height: 3.916667rem;
+  background: url('../img花鸟卷详情/ia_100000131.png');
+  background-size: 2.09375rem 3.916667rem;
+  overflow: hidden;
+}
+.wrap .main .content .right .intro .name {
+  width: 1.729167rem;
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 0.104167rem;
+  border-bottom: 1px dashed #fff;
+}
+.wrap .main .content .right .intro .name h1 {
+  color: #ffd9a1;
+  font-weight: 700;
+  font-size: 0.15625rem;
+  padding: 0.052083rem 0;
+}
+.wrap .main .content .right .intro .name p {
+  color: #ffd9a1;
+  font-weight: 700;
+  padding: 0.052083rem 0;
+  font-size: 0.083333rem;
+}
+.wrap .main .content .right .intro .skill {
+  margin: 0 auto;
+  width: 1.729167rem;
+}
+.wrap .main .content .right .intro .skill img {
+  width: 1.729167rem;
+  height: 1.276042rem;
+  background-size: 1.729167rem 1.276042rem;
+}
+.wrap .main .content .right .intro .text {
+  width: 1.729167rem;
+  text-align: left;
+  margin: 0 auto;
+}
+.wrap .main .content .right .intro .text p {
+  color: #ffd9a1;
+  font-weight: 700;
+  font-size: 0.114583rem;
+  border-bottom: 0.005208rem dashed #fff;
+  padding: 0.052083rem 0;
+  line-height: 0.135417rem;
+}
+.wrap .main .content .right .intro .text p i {
+  color: #ffd9a1;
+  font-size: 0.083333rem;
+}
+.wrap .main .content .right .intro .text .difficulty i {
+  display: inline-block;
+  width: 0.208333rem;
+  height: 0.0625rem;
+  background-color: #fff;
+  margin-left: 0.052083rem;
+}
+.wrap .main .content .right .intro .text .difficulty i:nth-child(n +4) {
+  background-color: #604190;
+}
+.wrap .main .content .right .intro .text .introduce {
+  border-bottom: none;
+}
+.wrap .main .content .line1 {
+  position: absolute;
+  width: 0.807292rem;
+  height: 0.192708rem;
+  right: 0.807292rem;
+  bottom: 0.885417rem;
+  background: url('../img花鸟卷详情/ia_100000132.png');
+  background-size: 0.807292rem 0.192708rem;
+}
+.wrap .main .content .btns {
+  position: absolute;
+  width: 100%;
+  height: 0.416667rem;
+  top: 48%;
+  overflow: hidden;
+}
+.wrap .main .content .btns a {
+  display: inline-block;
+  width: 0.213542rem;
+  height: 0.390625rem;
+}
+.wrap .main .content .btns a img {
+  display: inline-block;
+  width: 0.213542rem;
+  height: 100%;
+}
+.wrap .main .content .btns .btn-left {
+  float: left;
+  margin-left: 0.78125rem;
+}
+.wrap .main .content .btns .btn-right {
+  float: right;
+  margin-right: 0.78125rem;
+}
+.wrap .particulars {
+  position: relative;
+  top: -0.479167rem;
+  overflow: hidden;
+  width: 100%;
+  height: 7.03125rem;
+  background: url('../img花鸟卷详情/ia_100000136.jpg') no-repeat;
+  background-size: 10rem 7.03125rem;
+}
+.wrap .particulars .wrap1 {
+  width: 6.25rem;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 0.520833rem;
+}
+.wrap .particulars .wrap1 .p-left {
+  width: 3.59375rem;
+  height: 3.010417rem;
+  float: left;
+}
+.wrap .particulars .wrap1 .p-left .title {
+  width: 1.515625rem;
+  height: 0.401042rem;
+  background: url('../img花鸟卷详情/ia_100000138.png');
+  background-size: 1.515625rem 0.401042rem;
+  margin-bottom: 0.15625rem;
+}
+.wrap .particulars .wrap1 .p-left .content {
+  width: 100%;
+  height: 2.244792rem;
+  background: url('../img花鸟卷详情/ia_100000139.png');
+  background-size: 3.588542rem 2.244792rem;
+  overflow: hidden;
+}
+.wrap .particulars .wrap1 .p-left .content .box {
+  width: 3.463542rem;
+  height: 0.520833rem;
+  margin: 0 auto;
+  margin-top: 0.104167rem;
+  display: flex;
+}
+.wrap .particulars .wrap1 .p-left .content .box a {
+  position: relative;
+  display: inline-block;
+  width: 0.484375rem;
+  height: 0.515625rem;
+  border-radius: 50% 0.242188rem;
+  background: url(../img花鸟卷详情/ia_100000179.png) no-repeat center;
+  background-size: 0.484375rem 0.515625rem;
+  text-align: center;
+  margin: auto 0.098958rem;
+}
+.wrap .particulars .wrap1 .p-left .content .box a img {
+  margin-top: 0.046875rem;
+  text-align: center;
+  width: 0.421875rem;
+  height: 0.421875rem;
+  vertical-align: middle;
+}
+.wrap .particulars .wrap1 .p-left .content .box a span {
+  position: absolute;
+  display: inline-block;
+  bottom: 0.078125rem;
+}
+.wrap .particulars .wrap1 .p-left .content .box a:hover {
+  background: url(../img花鸟卷详情/ia_100000006719.png) no-repeat center;
+}
+.wrap .particulars .wrap1 .p-left .content .box a:nth-child(1) span {
+  left: 0.15625rem;
+  width: 0.213542rem;
+  height: 0.109375rem;
+  background: url(../img花鸟卷详情/ia_100000141.png);
+  background-size: 0.208333rem 0.109375rem;
+}
+.wrap .particulars .wrap1 .p-left .content .box a:nth-child(2) span {
+  width: 0.302083rem;
+  height: 0.114583rem;
+  left: 0.104167rem;
+  background: url(../img花鸟卷详情/ia_100000143.png);
+  background-size: 0.302083rem 0.114583rem;
+}
+.wrap .particulars .wrap1 .p-left .content .box a:nth-child(3) span {
+  width: 0.302083rem;
+  height: 0.114583rem;
+  left: 0.104167rem;
+  background: url(../img花鸟卷详情/ia_100000156.png);
+  background-size: 0.302083rem 0.114583rem;
+}
+.wrap .particulars .wrap1 .p-left .content .box a:nth-child(4) span {
+  width: 0.302083rem;
+  height: 0.114583rem;
+  left: 0.104167rem;
+  background: url(../img花鸟卷详情/ia_100000147.png);
+  background-size: 0.302083rem 0.114583rem;
+}
+.wrap .particulars .wrap1 .p-left .content .box a:nth-child(5) span {
+  left: 0.15625rem;
+  width: 0.213542rem;
+  height: 0.109375rem;
+  background: url(../img花鸟卷详情/ia_100000153.png);
+  background-size: 0.208333rem 0.109375rem;
+}
+.wrap .particulars .wrap1 .p-left .content .box a:nth-child(1) {
+  width: 0.510417rem;
+  height: 0.510417rem;
+  background: url(../img花鸟卷详情/ia_100000140.png);
+  background-size: 0.510417rem 0.510417rem;
+}
+.wrap .particulars .wrap1 .p-left .content .text {
+  padding: 0 0.15625rem;
+  margin-top: 0.15625rem;
+  display: none;
+}
+.wrap .particulars .wrap1 .p-left .content .text strong {
+  font-weight: 700;
+  font-size: 0.09375rem;
+  line-height: 0.15625rem;
+  color: #343477;
+  margin-bottom: 0.052083rem;
+}
+.wrap .particulars .wrap1 .p-left .content .text p {
+  font-size: 0.072917rem;
+  color: #343477;
+  line-height: 0.135417rem;
+}
+.wrap .particulars .wrap1 .p-left .content .text p .color1 {
+  color: #0095cc;
+}
+.wrap .particulars .wrap1 .p-left .content .text p .color2 {
+  color: #39b54a;
+}
+.wrap .particulars .wrap1 .p-left .content .text p .color5 {
+  color: #ac13f3;
+}
+.wrap .particulars .wrap1 .p-left .content .abb {
+  display: block;
+}
+.wrap .particulars .wrap1 .p-right {
+  width: 2.34375rem;
+  height: 5.75rem;
+  float: right;
+}
+.wrap .particulars .wrap1 .p-right .title {
+  width: 1.885417rem;
+  height: 0.401042rem;
+  background: url('../img花鸟卷详情/ia_100000150.png');
+  background-size: 1.885417rem 0.401042rem;
+  margin-bottom: 0.104167rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng {
+  width: 2.34375rem;
+  height: 0.760417rem;
+  background: url('../img花鸟卷详情/ia_100000159.png');
+  background-size: 2.34375rem 0.760417rem;
+  display: flex;
+  margin-bottom: 0.234375rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng .box1 {
+  flex: 1;
+  display: flex;
+}
+.wrap .particulars .wrap1 .p-right .jineng .box1 .tet {
+  padding-top: 0.182292rem;
+  width: 0.515625rem;
+  height: 0.515625rem;
+  padding-left: 0.104167rem;
+  text-align: left;
+  margin: auto 0;
+  display: inline-block;
+}
+.wrap .particulars .wrap1 .p-right .jineng .box1 .tet strong {
+  font-weight: 700;
+  font-size: 0.09375rem;
+  color: #343477;
+  margin-bottom: 0.052083rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng .box1 .tet span {
+  font-size: 0.072917rem;
+  color: #343477;
+}
+.wrap .particulars .wrap1 .p-right .jineng .box1 a {
+  position: relative;
+  display: inline-block;
+  width: 0.484375rem;
+  height: 0.515625rem;
+  background: url(../img花鸟卷详情/ia_100000179.png);
+  background-size: 0.484375rem 0.515625rem;
+  text-align: center;
+  margin: auto 0;
+}
+.wrap .particulars .wrap1 .p-right .jineng .box1 a img {
+  margin-top: 0.046875rem;
+  text-align: center;
+  width: 0.421875rem;
+  height: 0.421875rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng .box1 a .bg {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  bottom: 0.130208rem;
+  width: 0.213542rem;
+  height: 0.109375rem;
+  background-size: 0.213542rem 0.109375rem;
+  background: url(../img花鸟卷详情/ia_100000153.png);
+}
+.wrap .particulars .wrap1 .p-right .jineng .box1 a .text {
+  width: 1.739583rem;
+  border: 0.010417rem solid #3e2c71;
+  position: absolute;
+  top: 0.546875rem;
+  left: -0.588542rem;
+  padding: 0.026042rem 0.104167rem;
+  text-align: left;
+  background: #fffbf2;
+  display: none;
+}
+.wrap .particulars .wrap1 .p-right .jineng .box1 a .text i {
+  position: absolute;
+  top: -0.078125rem;
+  left: 0.677083rem;
+  width: 0.348958rem;
+  height: 0.078125rem;
+  background: url('../img花鸟卷详情/ia_100000180.png');
+  background-size: 0.348958rem 0.177083rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng .box1 a .text .h4 {
+  width: 100%;
+  height: 0.15625rem;
+  line-height: 0.15625rem;
+  color: #343477;
+  font-size: 0.078125rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng .box1 a .text #text1 {
+  padding: 0;
+  color: #343477;
+  font-size: 0.072917rem;
+  line-height: 0.104167rem;
+  width: 100%;
+  float: left;
+}
+.wrap .particulars .wrap1 .p-right .jineng .box1 a .text #text1 .color1 {
+  color: #39b54a;
+}
+.wrap .particulars .wrap1 .p-right .jineng .box1 a .text #text1 .color2 {
+  color: #ac13f3;
+}
+.wrap .particulars .wrap1 .p-right .jineng .box1 a a:hover {
+  background: url(../img花鸟卷详情/ia_100000006719.png) no-repeat center;
+}
+.wrap .particulars .wrap1 .p-right .jineng .box2 {
+  flex: 1;
+  display: flex;
+}
+.wrap .particulars .wrap1 .p-right .jineng .box2 .tet {
+  border-left: 0.005208rem dashed #604190;
+  padding-top: 0.182292rem;
+  width: 0.515625rem;
+  height: 0.515625rem;
+  padding-left: 0.104167rem;
+  text-align: left;
+  margin: auto 0;
+  display: inline-block;
+}
+.wrap .particulars .wrap1 .p-right .jineng .box2 .tet strong {
+  font-weight: 700;
+  font-size: 0.09375rem;
+  color: #343477;
+  margin-bottom: 0.052083rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng .box2 .tet span {
+  font-size: 0.072917rem;
+  color: #343477;
+}
+.wrap .particulars .wrap1 .p-right .jineng .box2 a {
+  position: relative;
+  display: inline-block;
+  width: 0.484375rem;
+  height: 0.515625rem;
+  background: url(../img花鸟卷详情/ia_100000179.png);
+  background-size: 0.484375rem 0.515625rem;
+  text-align: center;
+  margin: auto 0;
+}
+.wrap .particulars .wrap1 .p-right .jineng .box2 a img {
+  margin-top: 0.046875rem;
+  text-align: center;
+  width: 0.421875rem;
+  height: 0.421875rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng .box2 a .bg {
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  bottom: 0.130208rem;
+  width: 0.296875rem;
+  height: 0.114583rem;
+  background: url(../img花鸟卷详情/ia_100000156.png);
+  background-size: 0.296875rem 0.114583rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng .box2 a .text {
+  width: 1.739583rem;
+  border: 0.010417rem solid #3e2c71;
+  position: absolute;
+  top: 0.546875rem;
+  left: -0.588542rem;
+  padding: 0.026042rem 0.104167rem;
+  text-align: left;
+  background: #fffbf2;
+  display: none;
+}
+.wrap .particulars .wrap1 .p-right .jineng .box2 a .text i {
+  position: absolute;
+  top: -0.078125rem;
+  left: 0.677083rem;
+  width: 0.348958rem;
+  height: 0.078125rem;
+  background: url('../img花鸟卷详情/ia_100000180.png');
+  background-size: 0.348958rem 0.177083rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng .box2 a .text .h4 {
+  width: 100%;
+  height: 0.15625rem;
+  line-height: 0.15625rem;
+  color: #343477;
+  font-size: 0.078125rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng .box2 a .text #text1 {
+  padding: 0;
+  color: #343477;
+  font-size: 0.072917rem;
+  line-height: 0.104167rem;
+  width: 100%;
+  float: left;
+}
+.wrap .particulars .wrap1 .p-right .jineng .box2 a .text #text1 .color1 {
+  color: #39b54a;
+}
+.wrap .particulars .wrap1 .p-right .jineng .box2 a .text #text1 .color2 {
+  color: #ac13f3;
+}
+.wrap .particulars .wrap1 .p-right .jineng .box2 a a:hover {
+  background: url(../img花鸟卷详情/ia_100000006719.png) no-repeat center;
+}
+.wrap .particulars .wrap1 .p-right .title1 {
+  width: 1.416667rem;
+  height: 0.401042rem;
+  background: url('../img花鸟卷详情/ia_100000158.png');
+  background-size: 1.416667rem 0.401042rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng {
+  margin-bottom: 0.234375rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng .tet1 {
+  padding-top: 0.182292rem;
+  width: 0.515625rem;
+  height: 0.515625rem;
+  padding-left: 0.104167rem;
+  text-align: left;
+  margin: auto 0;
+  display: inline-block;
+}
+.wrap .particulars .wrap1 .p-right .jineng .tet1 strong {
+  font-weight: 700;
+  font-size: 0.09375rem;
+  color: #343477;
+  margin-bottom: 0.052083rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng .tet1 span {
+  font-size: 0.072917rem;
+  color: #343477;
+}
+.wrap .particulars .wrap1 .p-right .jineng .pt {
+  position: relative;
+  display: inline-block;
+  width: 0.484375rem;
+  height: 0.515625rem;
+  background: url(../img花鸟卷详情/ia_100000179.png);
+  background-size: 0.484375rem 0.515625rem;
+  text-align: center;
+  margin: auto 0;
+  margin: auto 0.052083rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng .pt img {
+  margin-top: 0.046875rem;
+  text-align: center;
+  width: 0.421875rem;
+  height: 0.421875rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng .pt .text {
+  width: 1.739583rem;
+  border: 0.010417rem solid #3e2c71;
+  position: absolute;
+  top: 0.546875rem;
+  left: -0.588542rem;
+  padding: 0.026042rem 0.104167rem;
+  text-align: left;
+  background: #fffbf2;
+  display: none;
+}
+.wrap .particulars .wrap1 .p-right .jineng .pt .text i {
+  position: absolute;
+  top: -0.078125rem;
+  left: 0.677083rem;
+  width: 0.348958rem;
+  height: 0.078125rem;
+  background: url('../img花鸟卷详情/ia_100000180.png');
+  background-size: 0.348958rem 0.177083rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng .pt .text .h4 {
+  width: 100%;
+  height: 0.15625rem;
+  line-height: 0.15625rem;
+  color: #343477;
+  font-size: 0.078125rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng .pt .text #text1 {
+  padding: 0;
+  color: #343477;
+  font-size: 0.072917rem;
+  line-height: 0.104167rem;
+  width: 100%;
+  float: left;
+}
+.wrap .particulars .wrap1 .p-right .jineng .pt .text #text1 .color1 {
+  color: #39b54a;
+}
+.wrap .particulars .wrap1 .p-right .jineng .pt .text #text1 .color2 {
+  color: #ac13f3;
+}
+.wrap .particulars .wrap1 .p-right .jineng a:hover {
+  background: url(../img花鸟卷详情/ia_100000006719.png) no-repeat center;
+}
+.wrap .particulars .wrap1 .p-right .jineng .pt1 {
+  position: relative;
+  display: inline-block;
+  width: 0.484375rem;
+  height: 0.515625rem;
+  background: url(../img花鸟卷详情/ia_100000179.png);
+  background-size: 0.484375rem 0.515625rem;
+  text-align: center;
+  margin: auto 0;
+  margin: auto 0.052083rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng .pt1 img {
+  margin-top: 0.046875rem;
+  text-align: center;
+  width: 0.421875rem;
+  height: 0.421875rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng .pt1 .text {
+  width: 1.739583rem;
+  border: 0.010417rem solid #3e2c71;
+  position: absolute;
+  top: 0.546875rem;
+  left: -0.588542rem;
+  padding: 0.026042rem 0.104167rem;
+  text-align: left;
+  background: #fffbf2;
+  display: none;
+}
+.wrap .particulars .wrap1 .p-right .jineng .pt1 .text i {
+  position: absolute;
+  top: -0.078125rem;
+  left: 0.677083rem;
+  width: 0.348958rem;
+  height: 0.078125rem;
+  background: url('../img花鸟卷详情/ia_100000180.png');
+  background-size: 0.348958rem 0.177083rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng .pt1 .text .h4 {
+  width: 100%;
+  height: 0.15625rem;
+  line-height: 0.15625rem;
+  color: #343477;
+  font-size: 0.078125rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng .pt1 .text #text1 {
+  padding: 0;
+  color: #343477;
+  font-size: 0.072917rem;
+  line-height: 0.104167rem;
+  width: 100%;
+  float: left;
+}
+.wrap .particulars .wrap1 .p-right .jineng .pt1 .text #text1 .color1 {
+  color: #39b54a;
+}
+.wrap .particulars .wrap1 .p-right .jineng .pt1 .text #text1 .color2 {
+  color: #ac13f3;
+}
+.wrap .particulars .wrap1 .p-right .title1 {
+  background: url('../img花鸟卷详情/ia_100000164.png');
+  background-size: 1.416667rem 0.401042rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng1 {
+  width: 2.34375rem;
+  height: 2.244792rem;
+  background: url('../img花鸟卷详情/ia_100000165.png');
+  background-size: 2.34375rem 2.244792rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng1 .text {
+  position: relative;
+  height: 0.244792rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng1 .text a {
+  display: inline-block;
+  width: 0.614583rem;
+  height: 0.234375rem;
+  background: url('../img花鸟卷详情/ia_100000168.png');
+  background-size: 0.614583rem 0.234375rem;
+  line-height: 0.234375rem;
+  text-align: center;
+  color: #462d6b;
+  font-size: 0.083333rem;
+  margin-top: 0.098958rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng1 .text .clolr {
+  color: #ffdaa6;
+  background: url('../img花鸟卷详情/ia_100000166.png');
+  background-size: 0.614583rem 0.234375rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng1 .text #a1 {
+  margin-left: 0.166667rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng1 .text #a2 {
+  margin: auto 0.0625rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng1 .list {
+  width: 100%;
+  height: 1.21875rem;
+  text-align: center;
+  margin-top: 0.104167rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng1 .list a {
+  position: relative;
+  display: inline-block;
+  width: 0.484375rem;
+  height: 0.515625rem;
+  background: url(../img花鸟卷详情/ia_100000179.png);
+  background-size: 0.484375rem 0.515625rem;
+  text-align: center;
+  margin: auto 0;
+  margin: 0.104167rem 0.104167rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng1 .list a img {
+  margin-top: 0.046875rem;
+  text-align: center;
+  width: 0.421875rem;
+  height: 0.421875rem;
+  border-radius: 50%;
+}
+.wrap .particulars .wrap1 .p-right .jineng1 .list a:hover {
+  background: url(../img花鸟卷详情/ia_100000006719.png) no-repeat center;
+}
+.wrap .particulars .wrap1 .p-right .jineng1 .list .description {
+  position: absolute;
+  width: 1.5625rem;
+  background: #fffbf2;
+  border: 0.010417rem solid #3e2c71;
+  padding: 0.026042rem 0.104167rem;
+  text-align: left;
+  z-index: 2;
+  display: none;
+}
+.wrap .particulars .wrap1 .p-right .jineng1 .list .description i {
+  position: absolute;
+  top: -0.078125rem;
+  left: 0.052083rem;
+  width: 0.348958rem;
+  height: 0.078125rem;
+  background: url('../img花鸟卷详情/ia_100000180.png');
+  background-size: 0.348958rem 0.177083rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng1 .list .description h4 {
+  width: 100%;
+  height: 0.15625rem;
+  line-height: 0.15625rem;
+  color: #343477;
+  font-size: 0.078125rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng1 .list .description p {
+  line-height: 0.104167rem;
+  color: #343477;
+  font-size: 0.072917rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng1 .list .description p .orange {
+  color: #dd7714;
+}
+.wrap .particulars .wrap1 .p-right .jineng1 .list .description .tit {
+  font-weight: 700;
+  margin-top: 0.015625rem;
+}
+.wrap .particulars .wrap1 .p-right .jineng1 .list:nth-child(n + 2) {
+  display: none;
+}
+.wrap footer {
+  width: 100%;
+  height: 0.625rem;
+  background: #000;
+  padding: 0.026042rem;
+  font-size: 0.0625rem;
+  color: #ccc;
+  margin-top: -0.479167rem;
+}
+.wrap footer .share {
+  width: 2.604167rem;
+  height: 0.125rem;
+  margin: 0.026042rem auto;
+  display: flex;
+}
+.wrap footer .share span {
+  width: 0.520833rem;
+  height: 100%;
+  display: inline-block;
+  line-height: 0.15625rem;
+  font-size: 0.0625rem;
+  text-align: right;
+}
+.wrap footer .share ul {
+  flex: 1;
+  margin-left: 0.026042rem;
+  float: left;
+  height: 100%;
+}
+.wrap footer .share ul li {
+  float: left;
+  height: 100%;
+  margin-left: 0.052083rem;
+}
+.wrap footer .share ul li a {
+  display: block;
+  width: 0.125rem;
+  height: 0.125rem;
+  background: url('../img花鸟卷详情/ia_100000183.png') no-repeat center;
+  background-size: 0.911458rem 2.604167rem;
+}
+.wrap footer .share ul li .weChat {
+  background-position: 0 -1.822917rem;
+}
+.wrap footer .share ul li .weChat:hover {
+  background-position: -0.78125rem -1.822917rem;
+}
+.wrap footer .share ul li .credulity {
+  background-position: 0 -1.692708rem;
+}
+.wrap footer .share ul li .credulity:hover {
+  background-position: -0.78125rem -1.692708rem;
+}
+.wrap footer .share ul li .sina {
+  background-position: 0 -0.125rem;
+}
+.wrap footer .share ul li .sina:hover {
+  background-position: -0.78125rem -0.125rem;
+}
+.wrap footer .share ul li .kongjian {
+  background-position: 0 0;
+}
+.wrap footer .share ul li .kongjian:hover {
+  background-position: -0.78125rem 0;
+}
+.wrap footer .share ul li .more {
+  background-position: 0 -1.953125rem;
+}
+.wrap footer .share ul li .more:hover {
+  background-position: -0.78125rem -1.953125rem;
+}
+.wrap footer .wangYi {
+  width: 5.46875rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.wrap footer .wangYi .left-box {
+  float: left;
+  margin-right: 0.260417rem;
+}
+.wrap footer .wangYi .left-box .left {
+  float: left;
+}
+.wrap footer .wangYi .left-box .left img {
+  width: 0.614583rem;
+  height: 0.1875rem;
+}
+.wrap footer .wangYi .left-box .right {
+  float: right;
+}
+.wrap footer .wangYi .left-box .right img {
+  width: 0.697917rem;
+  height: 0.1875rem;
+}
+.wrap footer .wangYi .right-box {
+  float: left;
+}
+.wrap footer .wangYi .right-box .wy-nav-1 {
+  color: #ccc;
+}
+.wrap footer .wangYi .right-box .wy-nav-1 a {
+  color: #ccc;
+}
+.wrap footer .wangYi .right-box .wy-nav-1 a:hover {
+  text-decoration: underline;
+}
+.wrap footer .wangYi .right-box .wy-nav-2 {
+  display: block;
+  margin-top: 0.026042rem;
+  color: #ccc;
+  line-height: 0.135417rem;
+}
+.wrap footer .wangYi .right-box .wy-nav-2 em {
+  float: right;
+  height: 0.135417rem;
+  color: #ccc;
+  background-color: #610000;
+  cursor: pointer;
+}
+.wrap footer .wangYi .right-box .wy-nav-2 em:hover {
+  text-decoration: underline;
+}
+.folat {
+  width: 1.166667rem;
+  height: 2.270833rem;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  margin-top: -1.135417rem;
+  z-index: 1;
+  background: url('../img花鸟卷详情/ia_100000184.png');
+  background-size: 1.166667rem 2.270833rem;
+}
+.folat .btn1 {
+  display: inline-block;
+  width: 0.479167rem;
+  height: 0.088542rem;
+  margin-top: 0.104167rem;
+  margin-left: 0.3125rem;
+  text-align: center;
+  background: url('../img花鸟卷详情/ia_100000186.png') no-repeat center;
+  background-size: 0.479167rem 0.088542rem;
+}
+.folat .btn2 {
+  position: absolute;
+  display: inline-block;
+  width: 0.421875rem;
+  height: 0.630208rem;
+  top: 0.520833rem;
+  left: -0.421875rem;
+  background: url('../img花鸟卷详情/ia_100000185.png');
+  background-size: 0.416667rem 0.630208rem;
+  display: none;
+}
+.folat .links {
+  width: 1.09375rem;
+  margin: 0 auto;
+  margin-top: 0.104167rem;
+}
+.folat .links img {
+  display: block;
+  width: 0.890625rem;
+  height: 0.890625rem;
+  margin: 0 auto;
+}
+.folat .links p {
+  color: #47286b;
+  font-size: 0.078125rem;
+  text-align: center;
+}
+.folat .links a {
+  display: block;
+  width: 0.890625rem;
+  height: 0.286458rem;
+  margin: 0 auto;
+}
+.folat .links .apple {
+  margin-top: 0.15625rem;
+  margin-bottom: 0.078125rem;
+  background: url('../img花鸟卷详情/ia_100000187.png') no-repeat;
+  background-size: 0.890625rem 0.270833rem;
+}
+.folat .links .android {
+  background: url('../img花鸟卷详情/ia_100000188.png');
+  background-size: 0.921875rem 0.286458rem;
+}

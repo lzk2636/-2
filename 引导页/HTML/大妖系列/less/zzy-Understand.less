@@ -1,0 +1,426 @@
+.aStyle() {
+    display: block;
+    width  : 100%;
+    height : 100%;
+}
+
+header {
+    position       : fixed;
+    width          : 10rem;
+    height         : 100vh;
+    background     : url('../imgae/ia_100000101.jpg') no-repeat bottom;
+    background-size: 10rem 5.208333rem;
+    padding-top    : .260417rem;
+    bottom         : 0;
+    // display        : none;
+
+    // 左边log
+    .log {
+        float          : left;
+        margin-left    : .520833rem;
+        width          : .96875rem;
+        height         : .375rem;
+        background     : url('../imgae/ia_100000009.png');
+        background-size: .96875rem .375rem;
+    }
+
+    // 右边官网
+    .zzy-Portal {
+        float       : right;
+        margin-right: .520833rem;
+
+        ul {
+            li {
+                float       : left;
+                width       : .203125rem;
+                height      : .296875rem;
+                margin-right: .078125rem;
+
+                a {
+                    display: block;
+                    width  : 100%;
+                    height : 100%;
+                }
+            }
+
+            li {
+                &:nth-child(1) {
+                    background     : url('../imgae/ia_100000104.png');
+                    background-size: .203125rem .296875rem;
+                }
+
+                &:nth-child(1):hover {
+                    opacity: .6;
+                }
+
+                &:nth-child(2) {
+                    background     : url('../imgae/ia_100000102.png');
+                    background-size: .203125rem .296875rem;
+                }
+
+                &:nth-child(2):hover {
+                    opacity: .6;
+                }
+
+                &:nth-child(3) {
+                    position: relative;
+
+                    a {
+                        .box {
+                            height   : .052083rem;
+                            position : absolute;
+                            left     : .052083rem;
+                            top      : .119792rem;
+                            transform: rotate(180deg);
+
+                            i {
+                                float           : left;
+                                margin-right    : .015625rem;
+                                width           : .015625rem;
+                                height          : .052083rem;
+                                background-color: #fff;
+
+                            }
+                        }
+
+                        .Audio {
+                            .btn {
+                                width: .15625rem;
+                                height: .15625rem;
+                                position: absolute;
+                                left: .052083rem;
+                                top: .052083rem;
+                            }
+                            audio {
+                                position: absolute;
+                                top: 100px;
+                                right: 0;
+                                opacity: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // 英雄-系列
+    .hero {
+        position: absolute;
+        right: 2.083333rem;
+        bottom: 1.5625rem;
+        width   : 4.166667rem;
+        height  : 2.34375rem;
+
+        i {
+            .aStyle();
+            cursor: pointer;
+
+            img {
+                width : 100%;
+                height: 100%;
+            }
+        }
+
+        div {
+            position: absolute;
+        }
+
+        // 英雄-鸟人
+        .hero-NR {
+            width : 1.052083rem;
+            height: 1.322917rem;
+            left  : .755208rem;
+            top   : .026042rem;
+        }
+
+        // 英雄-恶魔
+        .hero-EM {
+            width : 1.239583rem;
+            height: 1.333333rem;
+            left  : -0.3125rem;
+            top   : 1.145833rem;
+        }
+
+        // 英雄-女王
+        .hero-NW {
+            width : 1.09375rem;
+            height: 1.09375rem;
+            left  : .96875rem;
+            top   : 1.239583rem;
+        }
+
+        // 英雄-守墓人
+        .hero-SMR {
+            width : .567708rem;
+            height: .958333rem;
+            left  : 2.291667rem;
+            top   : 1.302083rem;
+
+            i {
+                width  : .166667rem;
+                height : .572917rem;
+                display: none;
+
+                img {
+                    width : .166667rem;
+                    height: .572917rem;
+                }
+            }
+        }
+
+        // 英雄-狐狸
+        .hero-HL {
+            width : 1.197917rem;
+            height: 1.46875rem;
+            right : -0.104167rem;
+            bottom: -0.104167rem;
+        }
+    }
+
+    //版权信息
+    .banQuan {
+        height   : .15625rem;
+        color    : #d8cf9f;
+        position : absolute;
+        bottom   : .104167rem;
+        right    : .520833rem;
+        cursor   : pointer;
+        font-size: .067708rem;
+
+        i {
+            display        : inline-block;
+            width          : .078125rem;
+            height         : .078125rem;
+            background     : url('../imgae/ia_100000110.png');
+            background-size: .078125rem .078125rem;
+            vertical-align : middle;
+            transform      : rotate(180deg);
+            transition     : all 1s;
+        }
+
+        .toogld {
+            transform : rotate(0deg);
+            transition: all 1s;
+        }
+
+    }
+
+    // 底部内容
+    footer {
+        position        : absolute;
+        bottom          : 0;
+        width           : 10rem;
+        height          : .380208rem;
+        background-color: #000;
+        padding         : .026042rem;
+        font-size       : .0625rem;
+        display         : none;
+
+        //网易客服
+        .wangYi {
+            width       : 7.291667rem;
+            padding-left: .78125rem;
+            margin      : .052083rem auto 0;
+            overflow    : hidden;
+
+
+            // 左边网易图片
+            .left-box {
+                float       : left;
+                margin-right: .260417rem;
+
+                .left {
+                    float: left;
+
+                    img {
+                        width : .614583rem;
+                        height: .1875rem;
+                    }
+                }
+
+                .right {
+                    float: right;
+
+                    img {
+                        width : .697917rem;
+                        height: .1875rem;
+                    }
+                }
+            }
+
+            //  中间客服文字内容
+            .right-box {
+                float: left;
+
+                //  头部导航栏
+                .wy-nav-1 {
+                    color: white;
+
+                    a {
+                        color: white;
+                    }
+
+                    a {
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+
+                //  版权
+                .wy-nav-2 {
+                    display    : block;
+                    margin-top : .052083rem;
+                    color      : white;
+                    line-height: .135417rem;
+
+                    em {
+                        float           : right;
+                        height          : .135417rem;
+                        color           : white;
+                        background-color: #610000;
+                        cursor          : pointer;
+                    }
+
+                    em:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.QJ-bg {
+    display: none;
+    position       : relative;
+    height         : 100vh;
+    background     : url('../imgae/ia_100000106.jpg') no-repeat bottom;
+    background-size: 100% 5.208333rem;
+    overflow       : hidden;
+
+    // 鸟人-背景
+    .new {
+        // display: none;
+        .NR-bg {
+            width          : 5.208333rem;
+            height         : 2.958333rem;
+            background-size: 5.208333rem 2.958333rem;
+            position       : absolute;
+            right          : .520833rem;
+            bottom         : .9375rem;
+        }
+        // 天狗
+        .title {
+            position: absolute;
+            width: 2.427083rem;
+            height: .484375rem;
+            bottom: 2.864583rem;
+            left: 2.34375rem;
+            background: url('../imgaes/ia_100000107.png');
+            background-size: 2.427083rem .484375rem;
+            // 标题
+            .tianGou {
+                margin-top: .104167rem;
+                width: 1.390625rem;
+                height: .255208rem;
+                img {
+                    width: 1.390625rem;
+                    height: .255208rem;
+                }
+            }
+            // 暂停键
+            .stop {
+                position: absolute;
+                right: .052083rem;
+                top: .052083rem;
+                img {
+                    width: .364583rem;
+                    height: .364583rem;
+                }
+            }
+
+            .stop:hover {
+                opacity: .6;
+            }
+        }
+        // 名字
+        .name {
+            width: .223958rem;
+            height: 1.088542rem;
+            position: absolute;
+            right: 1.5625rem;
+            bottom: 2.34375rem;
+        }
+        // 文本
+        .text {
+            position: absolute;
+            width: 2.291667rem;
+            height: .9375rem;
+            color: #dcd5e0;
+            font-size: .072917rem;
+            line-height: .130208rem;
+            bottom: 1.71875rem;
+            left: 2.34375rem;
+        }
+        .remove {
+            width: .28125rem;
+            height: .28125rem;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 1.458333rem;
+            margin: auto;
+            cursor: pointer;
+            transition: all 2s;
+            transform: rotate(0deg)
+        }
+        .remove:hover {
+            transition: all 2s;
+            transform: rotate(90deg);
+        }
+    }
+    // 鸟人
+    .NR {
+        display: none;
+        .NR-bg {
+            background     : url('../imgaes/ia_100000011.png');
+        }
+    }
+    // 恶魔
+    .EM {
+        display: none;
+        .NR-bg {
+            width: 2.765625rem;
+            height: 3.395833rem;
+            right: 1.5625rem;
+            background     : url('../imgaes/ia_100000000108.png');
+            background-size: 2.765625rem 3.395833rem;
+        }
+    }
+    // 女王
+    .NW {
+        display: none;
+        .NR-bg {
+            width: 2.765625rem;
+            height: 3.395833rem;
+            right: 1.5625rem;
+            background     : url('../imgaes/ia_100000000112.png');
+            background-size: 2.765625rem 3.395833rem;
+        }
+    }
+    //狐狸
+    .HL {
+        display: none;
+        .NR-bg {
+            width: 2.765625rem;
+            height: 3.395833rem;
+            right: 1.5625rem;
+            background     : url('../imgaes/ia_100000000115.png');
+            background-size: 2.765625rem 3.395833rem;
+        }
+        
+    }
+}

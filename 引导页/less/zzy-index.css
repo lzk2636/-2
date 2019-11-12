@@ -1,0 +1,527 @@
+em {
+  font-style: normal;
+}
+.share {
+  background-size: 0.104167rem;
+}
+.PAJ {
+  position: relative;
+}
+.PAJ .header-top {
+  height: 4.479167rem;
+  background: url('../images/page-1_ce9ee685.jpg') no-repeat;
+  background-size: 10rem 4.479167rem;
+}
+.PAJ .header-top header {
+  width: 6.25rem;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+.PAJ .header-top header .logo {
+  width: 1.302083rem;
+  height: 0.416667rem;
+  position: absolute;
+  top: 0.15625rem;
+}
+.PAJ .header-top header .logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+.PAJ .header-top header .logo a h1 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+  background-image: url('../images/ia_100000115.jpg');
+  background-size: 100%;
+}
+.PAJ .header-top header .link {
+  position: absolute;
+  width: 0.963542rem;
+  height: 0.286458rem;
+  right: 0;
+  top: 0.260417rem;
+}
+.PAJ .header-top header .link a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+  background: url('../images/ia_100000135.png') no-repeat;
+  background-size: 5.78125rem 4.713542rem;
+  background-position: -3.859375rem -3.604167rem;
+}
+.PAJ .header-top header .link a:hover {
+  background-position: -2.895833rem -3.604167rem;
+}
+.PAJ .header-top header .arrow {
+  width: 0.529167rem;
+  height: 0.286458rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: 0;
+}
+.PAJ .header-top header .arrow i {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+  background: url('../images/ia_100000135.png') no-repeat;
+  background-size: 5.78125rem 4.713542rem;
+  background-position: -3.020833rem -3.166208rem;
+}
+.PAJ .main .main-top {
+  height: 6.463542rem;
+  background: url('../images/ia_100000118.jpg');
+  background-size: 10rem 6.463542rem;
+  margin-top: -0.005208rem;
+  overflow: hidden;
+  position: relative;
+}
+.PAJ .main .main-top .MT-content {
+  width: 6.25rem;
+  margin: 0 auto;
+}
+.PAJ .main .main-top .MT-content .title-1 {
+  margin: 0.520833rem auto;
+  width: 1.395833rem;
+  height: 0.640625rem;
+  background: url('../images/ia_100000135.png') no-repeat;
+  background-size: 5.78125rem 4.713542rem;
+  background-position: -2.890625rem -2.447917rem;
+}
+.PAJ .main .main-top .MT-content .hearo {
+  height: 4.947917rem;
+  position: relative;
+}
+.PAJ .main .main-top .MT-content .hearo .hearoLeft {
+  position: absolute;
+  width: 2.8125rem;
+  height: 2.338542rem;
+}
+.PAJ .main .main-top .MT-content .hearo .hearoLeft i {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+  background: url('../images/ia_100000135.png') no-repeat;
+  background-size: 5.78125rem 4.713542rem;
+  background-position: -2.864583rem 0;
+  cursor: pointer;
+}
+.PAJ .main .main-top .MT-content .hearo .hearoRight {
+  position: absolute;
+  width: 2.8125rem;
+  height: 2.338542rem;
+  right: 0;
+}
+.PAJ .main .main-top .MT-content .hearo .hearoRight i {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+  background: url('../images/ia_100000135.png') no-repeat;
+  background-size: 5.78125rem 4.713542rem;
+  background-position: 0 0;
+  cursor: pointer;
+}
+.PAJ .main .main-top .MT-content .hearo .hearoMiddle {
+  position: absolute;
+  width: 2.8125rem;
+  height: 2.338542rem;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.PAJ .main .main-top .MT-content .hearo .hearoMiddle i {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+  background: url('../images/ia_100000135.png') no-repeat;
+  background-size: 5.78125rem 4.713542rem;
+  background-position: 0 -2.395833rem;
+  cursor: pointer;
+}
+.PAJ .main .main-bottom {
+  height: 4.65625rem;
+  background: url('../images/ia_100000123.jpg');
+  background-size: 10rem 4.65625rem;
+  overflow: hidden;
+}
+.PAJ .main .main-bottom .MB-content {
+  width: 6.25rem;
+  margin: 0 auto;
+}
+.PAJ .main .main-bottom .MB-content .title-2 {
+  margin: 0.520833rem auto;
+  width: 1.395833rem;
+  height: 0.640625rem;
+  background: url('../images/ia_100000135.png') no-repeat;
+  background-size: 5.78125rem 4.713542rem;
+  background-position: -4.28125rem -2.447917rem;
+}
+.PAJ .main .main-bottom .MB-content .warp {
+  width: 6.25rem;
+  height: 2.604167rem;
+  position: relative;
+  perspective: 4.395833rem;
+}
+.PAJ .main .main-bottom .MB-content .warp ul {
+  position: relative;
+  height: 2.604167rem;
+  margin: 0 auto;
+}
+.PAJ .main .main-bottom .MB-content .warp ul li img {
+  width: 100%;
+  height: 100%    ;
+}
+.PAJ .main .main-bottom .MB-content .warp div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 0.223958rem;
+  height: 0.401042rem;
+  background: url('../images/ia_100000135.png') no-repeat;
+  background-size: 5.78125rem 4.713542rem;
+  cursor: pointer;
+  z-index: 5;
+}
+.PAJ .main .main-bottom .MB-content .warp .warp-left {
+  background-position: -2.890625rem -3.895833rem;
+}
+.PAJ .main .main-bottom .MB-content .warp .warp-right {
+  right: 0;
+  background-position: -3.109375rem -3.895833rem;
+}
+.PAJ footer {
+  width: 100%;
+  height: 0.625rem;
+  background: hsla(0, 0%, 94%, 0.8);
+  padding: 0.026042rem;
+  font-size: 0.0625rem;
+}
+.PAJ footer .share {
+  width: 4.166667rem;
+  padding-left: 0.78125rem;
+  height: 0.104167rem;
+  margin: 0.052083rem auto;
+}
+.PAJ footer .share .a1 {
+  height: 100%;
+  float: left;
+  line-height: 0.104167rem;
+}
+.PAJ footer .share ul {
+  overflow: hidden;
+}
+.PAJ footer .share ul li {
+  margin-right: 0.052083rem;
+  float: left;
+}
+.PAJ footer .share ul li a span {
+  float: left;
+  width: 0.104167rem;
+  height: 0.104167rem;
+  margin-left: 0.015625rem;
+}
+.PAJ footer .share ul li a em {
+  float: left;
+  font-size: 0.072917rem;
+  line-height: 0.104167rem;
+}
+.PAJ footer .share ul li:nth-child(1) a span {
+  background-image: url('../images/微信.png');
+  background-size: 0.104167rem;
+}
+.PAJ footer .share ul li:nth-child(2) a span {
+  background-image: url('../images/易信.png');
+  background-size: 0.104167rem;
+}
+.PAJ footer .share ul li:nth-child(3) a span {
+  background-image: url('../images/新浪.png');
+  background-position: 0 0.005208rem;
+  background-size: 0.104167rem;
+}
+.PAJ footer .share ul li:nth-child(4) a span {
+  background-image: url('../images/空间.png');
+  background-size: 0.104167rem;
+}
+.PAJ footer .share ul li:nth-child(5) a span {
+  background-image: url('../images/QQ.png');
+  background-position: 0 0.005208rem;
+  background-size: 0.104167rem;
+}
+.PAJ footer .share ul li:hover a em {
+  color: #d8191e;
+}
+.PAJ footer .share ul li:hover:nth-child(1) a span {
+  background-image: url('../images/微信红.png');
+}
+.PAJ footer .share ul li:hover:nth-child(2) a span {
+  background-image: url('../images/易信红.png');
+}
+.PAJ footer .share ul li:hover:nth-child(3) a span {
+  background-image: url('../images/新浪红.png');
+}
+.PAJ footer .share ul li:hover:nth-child(4) a span {
+  background-image: url('../images/空间红.png');
+}
+.PAJ footer .share ul li:hover:nth-child(5) a span {
+  background-image: url('../images/QQ红.png');
+  background-position: 0 0.005208rem;
+}
+.PAJ footer .wangYi {
+  width: 7.291667rem;
+  padding-left: 0.78125rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.PAJ footer .wangYi .left-box {
+  float: left;
+  margin-right: 0.260417rem;
+}
+.PAJ footer .wangYi .left-box .left {
+  float: left;
+}
+.PAJ footer .wangYi .left-box .left img {
+  width: 0.614583rem;
+  height: 0.1875rem;
+}
+.PAJ footer .wangYi .left-box .right {
+  float: right;
+}
+.PAJ footer .wangYi .left-box .right img {
+  width: 0.697917rem;
+  height: 0.1875rem;
+}
+.PAJ footer .wangYi .right-box {
+  float: left;
+}
+.PAJ footer .wangYi .right-box .wy-nav-1 {
+  color: red;
+}
+.PAJ footer .wangYi .right-box .wy-nav-1 a {
+  color: red;
+}
+.PAJ footer .wangYi .right-box .wy-nav-1 a:hover {
+  text-decoration: underline;
+}
+.PAJ footer .wangYi .right-box .wy-nav-2 {
+  display: block;
+  margin-top: 0.052083rem;
+  color: #7a7a7a;
+  line-height: 0.135417rem;
+}
+.PAJ footer .wangYi .right-box .wy-nav-2 em {
+  float: right;
+  height: 0.135417rem;
+  color: white;
+  background-color: #610000;
+  cursor: pointer;
+}
+.PAJ footer .wangYi .right-box .wy-nav-2 em:hover {
+  text-decoration: underline;
+}
+.identical-1 {
+  width: 10rem;
+  height: 9.265625rem;
+  position: fixed;
+  top: 50%;
+  margin: -3.645833rem 0 0;
+  display: none;
+}
+.identical-1 .HC-top {
+  position: absolute;
+  width: 3.010417rem;
+  height: 0.625rem;
+  top: 2.083333rem;
+  right: 2.083333rem;
+}
+.identical-1 .HC-top img {
+  width: 3.010417rem;
+  height: 100%;
+}
+.identical-1 .HC-content {
+  width: 2.5rem;
+  height: 1.71875rem;
+  position: absolute;
+  top: 2.760417rem;
+  right: 2.1875rem;
+  overflow: auto;
+}
+.identical-1 .HC-content .text {
+  color: white;
+}
+.identical-1 .HC-content .text p {
+  font-size: 0.072917rem;
+  line-height: 0.145833rem;
+}
+.identical-1 .HC-content .introduce {
+  width: 2.25rem;
+  height: 2.1875rem;
+  background-image: url('../images/ia_100000129.png');
+  background-size: 2.25rem;
+  position: relative;
+  margin-top: 0.15625rem;
+  margin-left: 0.104167rem;
+}
+.identical-1 .HC-content .introduce .gif {
+  position: absolute;
+  width: 1.364583rem;
+  height: 1.364583rem;
+  border-radius: 50%;
+  overflow: hidden;
+  top: 0.416667rem;
+  left: 0.46875rem;
+}
+.identical-1 .HC-content .introduce .gif img {
+  width: 100%;
+  height: 100%;
+}
+.identical-1 .HC-content .introduce ul {
+  position: relative;
+}
+.identical-1 .HC-content .introduce ul li {
+  position: absolute;
+  width: 0.34375rem;
+  height: 0.34375rem;
+  opacity: 0.6;
+}
+.identical-1 .HC-content .introduce ul li .iocn {
+  position: absolute;
+  width: 0.291667rem;
+  height: 0.291667rem;
+  opacity: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.identical-1 .HC-content .introduce ul li .iocn img {
+  position: absolute;
+  width: 0.291667rem;
+  height: 0.291667rem;
+  border: 2px solid #ffd486;
+  border-radius: 50%;
+  left: 0.015625rem;
+  top: 0.010417rem;
+}
+.identical-1 .HC-content .introduce ul .garden {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  border: 2px solid #ffd486;
+}
+.identical-1 .HC-content .introduce ul .iocn-1 {
+  top: 0.16875rem;
+  left: 0.104167rem;
+}
+.identical-1 .HC-content .introduce ul .iocn-2 {
+  top: 0.572917rem;
+  left: -0.104167rem;
+}
+.identical-1 .HC-content .introduce ul .iocn-3 {
+  top: 1.041667rem;
+  left: -0.104167rem;
+}
+.identical-1 .HC-content .introduce ul .iocn-4 {
+  top: 1.458333rem;
+}
+.identical-1 .HC-content .introduce ul .iocn-5 {
+  top: 1.822917rem;
+  left: 0.3125rem;
+}
+.identical-1 .remove {
+  top: 1.822917rem;
+  right: 2.083333rem;
+  position: absolute;
+  width: 0.244792rem;
+  height: 0.223958rem;
+}
+.identical-1 .remove i {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+.identical-1 .remove i img {
+  width: 0.244792rem;
+  height: 0.223958rem;
+}
+.identical-1 .HC-arrow {
+  width: 0.223958rem;
+  height: 0.416667rem;
+  position: absolute;
+  top: 3.125rem;
+  right: 1.822917rem;
+}
+.identical-1 .HC-arrow i {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+  background: url('../images/ia_100000135.png') no-repeat;
+  background-size: 5.78125rem 4.713542rem;
+  background-position: -3.546875rem -3.895833rem;
+  cursor: pointer;
+}
+.identical-2 {
+  display: none;
+}
+.identical-2 .HC-content .text p {
+  text-indent: 2em;
+  margin-top: 0.078125rem;
+}
+.identical-2 .XM-bottom {
+  width: 1.015625rem;
+  height: 0.302083rem;
+  position: absolute;
+  top: 4.166667rem;
+  right: 3.125rem;
+  z-index: 1;
+}
+.identical-2 .XM-bottom a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+  background: url('../images/ia_100000135.png') no-repeat;
+  background-size: 5.78125rem 4.713542rem;
+  background-position: -4.635417rem -3.088542rem;
+  cursor: pointer;
+}
+.HC-bg {
+  background: url('../images/ia_100000128.png') no-repeat;
+  background-size: 10rem 9.265625rem;
+}
+.XM-bg {
+  background: url('../images/ia_100000130.png') no-repeat;
+  background-size: 10rem 9.265625rem;
+}
+.MJ-bg {
+  background: url('../images/ia_100000132.png') no-repeat;
+  background-size: 10rem 9.265625rem;
+}
+.MJ-bg .XM-bottom a {
+  background: url('../images/ia_100000135.png') no-repeat;
+  background-size: 5.78125rem 4.713542rem;
+  background-position: -3.619792rem -3.088542rem;
+}

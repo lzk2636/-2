@@ -1,0 +1,173 @@
+.main{
+  width:100vw;
+  height:100vh;
+  background: url('../img/ia_100000243.jpg');
+  background-size: 100% 100%;
+  .nav{
+    position: absolute;
+    top:.208333rem;
+    right:.104167rem;
+    z-index:1;
+    .weChat{
+      display: inline-block;
+      width: .135417rem;
+      height:.135417rem;
+      background: url('../img/ia_100000241.png') -.15625rem 0 no-repeat;
+      background-size: 1.536458rem .140625rem;
+    }
+  }
+  // 轮播图
+  .slideShow{
+    width: 2.291667rem;
+    height:1.302083rem;
+    position: absolute;
+    top: .677083rem;
+    right:.677083rem;
+    z-index:4;
+    display: none;
+    &:hover .arrow{
+      display: block;
+    }
+    li{
+      width:2.291667rem;
+      height:1.302083rem;
+      position: absolute;
+      display: none;
+      &:first-child{
+        display: block;
+      }
+      img{
+        width:2.291667rem;
+        height:1.302083rem;
+      }
+    }
+    .arrow {
+      display: none;
+        .arrow-left,
+        .arrow-right {
+            font-family: "SimSun", "宋体";
+            width: .15625rem;
+            height: .3125rem;
+            background-color: rgba(0, 0, 0, 0.1);
+            position: absolute;
+            top: 50%;
+            margin-top: -0.15625rem;
+            cursor: pointer;
+            text-align: center;
+            line-height: .3125rem;
+            color: #fff;
+            font-weight: 700;
+            font-size: .15625rem;
+        }
+        .arrow-left:hover,
+        .arrow-right:hover {
+            background-color: rgba(0, 0, 0, .5);
+        }
+        .arrow-left {
+          left: 0;
+       }
+        .arrow-right {
+          right: 0;
+       }
+    }
+  }
+
+  //tab栏
+  .wrapper {
+    width: 3.4375rem;
+    height:.963542rem;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,0);
+    bottom:.520833rem;
+    z-index:5;
+    .tab {
+      height: .104167rem;
+      width: 1.145833rem;
+      li{
+        position: relative;
+        float: left;
+        width: .208333rem;
+        height: .104167rem;
+        line-height: .104167rem;
+        text-align: center;
+        cursor: pointer;
+        margin-right: .020833rem;
+        &:hover{
+          color:#697273;
+        }
+      }
+  }
+  .products {
+    width: 3.4375rem;
+    height: .729167rem;
+    position: relative;
+     .main {
+      display: none;
+      position: absolute;
+      width: 3.4375rem;
+      height: .729167rem;
+      img{
+        width: 3.4375rem;
+        height: .729167rem;
+      }
+}
+      .main.selected {
+      display: block;
+}
+}
+}
+
+  //月亮
+  .moon{
+    position: absolute;
+    z-index:3;
+    width: 5.208333rem;
+    height:3.385417rem;
+    top:2;
+    left:50%;
+    transform: translateX(-42%);
+    display: none;
+    img{
+      width: 5.208333rem;
+      height:3.385417rem;
+    }
+  }
+
+  //新闻资讯
+  .news{
+    width: 1.265625rem;
+    height:1.421875rem;
+    position: absolute;
+    top: .15625rem;
+    left:1.458333rem;
+    z-index: 2;
+    display: none;
+    img{
+      width: 1.265625rem;
+      height:1.421875rem;
+    }
+  }
+
+  //遮罩
+  .masky {
+    position: absolute;
+    z-index:10;
+    width: 100%;
+    height:100%;
+    background: url("../img/mask_caffc4a.png") center top no-repeat;
+    background-size: 4000% 100%;/* 宽放大父盒子的40倍 */
+    opacity: .4;
+    animation: maskyBg 1.2s steps(39) forwards;
+  }
+
+  @keyframes maskyBg {
+    0% {
+      background-position: 0 0;
+    }
+
+    100% {
+      background-position: 100% 0;
+    }
+  }
+}
